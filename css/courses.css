@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+.courses-wrapper {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 33%;
+}
+
+.course .content {
+    padding: 0 var(--spacing-small);
+}
+
+.content h3 {
+    margin: 15px 0;
+    color: #101d42;
+}
+
+
+.course .microsoft-logo {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.details span {
+    font-size: var(--fs-medium);
+    color: #666
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.course a {
+    font-size: var(--fs-medium);
+    text-align: center;
+    color: var(--text-white);
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+    padding: var(--spacing-tiny);
+    width: 100px;
+}
+
+.certification, .details, .content a {
+    margin-bottom: var(--fs-medium);
+}
+
+
+.course .programare-phyon {
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--spacing-large);
+}
+
+.course .image {
+    width: 100%;
+    padding: 5px;
+}
+
+.container h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.main-paragraph {
+    text-align: center;
+    margin-bottom: var(--spacing-large);
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .courses-wrapper {
+        width: 100%;
+    }
+}
